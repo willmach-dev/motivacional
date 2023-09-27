@@ -1,3 +1,34 @@
 h1 {
-  color: pink;
+  color: #F8E5EE;
+}
+
+blockquote {
+  max-width: 700px;
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+p {
+  text-align: right;
+  font-size: 1.15rem;
+  color: #EAF27C;
+  margin-bottom: 1rem;
+}
+
+button{
+  padding: 2px;
+  background-image: linear-gradient(180deg, #3d52d5, #42033D);
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all .2s;
+  font-size: 2rem;
+}
+
+button:hover {
+  background-image: linear-gradient(180deg, #42033D, #3d52d5);
 }

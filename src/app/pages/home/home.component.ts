@@ -28,7 +28,6 @@ export class HomeComponent {
           frase,
           autor,
         };
-        console.log(this.data);
       }
     });
   }
